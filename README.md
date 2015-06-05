@@ -7,9 +7,11 @@ This software is a pipeline, written in python,to perform SNP calling for severa
 
 SnPipe is a pipeline is a pipeline that wraps several tools to perform SNP calling. Therefore, this tools must be availables. This tools are:
 
-*BWA*: a mapper to align the reads of the query genome to the reference genome
-Samtools: a suite to perform several operations under SAM/BAM files, such as, order, remove duplicates, transform, etc.
-FreeBayes: an haplotype-based SNP caller.
+**BWA**: a mapper to align the reads of the query genome to the reference genome.
+
+**Samtools**: a suite to perform several operations under SAM/BAM files, such as, order, remove duplicates, transform, etc.
+
+**FreeBayes**: an haplotype-based SNP caller.
 
 # The input file
 
