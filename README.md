@@ -20,7 +20,7 @@ SnPipe takes a description file as input. This file must contains the descriptio
 Any comment in the input file isn't allowed.
 
 Here there is an example of an input file:
-
+```
 strain1 /path/to/fastq1,path/to/fastq1  paired
 
 strain1 /path/to/fastq  single
@@ -28,6 +28,7 @@ strain1 /path/to/fastq  single
 strain2 /path/to/fastq single
 
 strain3 /path/to/fastq1,/path/to/fastq2 paired
+```
 
 If the query genome has more than one library, they have to be declared in different lines in the input file (strain1 in the Input example above).
 
