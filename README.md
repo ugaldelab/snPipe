@@ -3,7 +3,7 @@ This software is a pipeline, written in python, to perform SNP calling for sever
 
 # Prerequisites
 
-SnPipe is a pipeline is a pipeline that wraps several tools to perform SNP calling. Therefore, this tools must be availables. This tools are:
+SnPipe is a pipeline that wraps several tools to perform SNP calling. Therefore, these tools must be available. Before to run SNPipe please check if the following programs are installed:
 
 **BWA**: a mapper to align the reads of the query genome to the reference genome.
 
