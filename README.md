@@ -5,7 +5,7 @@ This software is a pipeline, written in python, to perform SNP calling for sever
 
 SnPipe is a pipeline that wraps several tools to perform SNP calling. Therefore, these tools must be available. Before to run SNPipe please check if the following programs are installed:
 
-**BWA**: a mapper to align the reads of the query genome to the reference genome.
+**BWA**: a mapper to align a set of reads to a reference genome.
 
 **Samtools**: a suite to perform several operations under SAM/BAM files, such as, order, remove duplicates, transform, etc.
 
