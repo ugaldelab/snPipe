@@ -207,7 +207,7 @@ if not out_path:
     sys.exit(1)
     
 
-# Read the input file with the information of the query 
+# Read the input file that contains the information of the query genomes 
 if not os.path.exists(if_path):
     print "snPipe: error: the \"%s\" file does not exist" % if_path
     sys.exit(errno.ENOENT)
