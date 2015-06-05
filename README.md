@@ -1,9 +1,17 @@
 # snPipe
 Wrapper to perform SNP calling
 
-This software is a pipeline, written in python, to perform SNP calling for several related genomes at the same time respect to a reference genome. 
+This software is a pipeline, written in python,to perform SNP calling for several related genomes at the same time respect to a reference genome.
 
-#The input file
+# Prerequisites
+
+SnPipe is a pipeline is a pipeline that wraps several tools to perform SNP calling. Therefore, this tools must be availables. This tools are:
+
+BWA: a mapper to align the reads of the query genome to the reference genome
+Samtools: a suite to perform several operations under SAM/BAM files, such as, order, remove duplicates, transform, etc.
+FreeBayes: an haplotype-based SNP caller.
+
+# The input file
 
 SnPipe takes a description file as input. This file must contains the description of the query genomes where the SNPs will be called. The fields of the input file are, the name of the sample, the path to the fastq files and the library type (single or paired), indicating if the library is paired_end/mate_pair or single_end. The fields must be separated by a tab.
 
