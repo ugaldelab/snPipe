@@ -33,4 +33,4 @@ If the query genome has more than one library, then they have to be declared in 
 If the library is paired, then the path to the forward and reverse fastq files must be separated by a comma, without spaces (strain 1 and strain3 in the example above). 
 
 # Workflow
-![alt tag](https://lh5.googleusercontent.com/jwqrt7YJX3mOVj2JsvS6308B84uEw0dk0H81ZjqCAoxdswF8107_UVqmnubw7imqigH6rp5oRYO7Ma0=w1338-h523) 
+![alt tag](https://lh5.googleusercontent.com/3S0xSo8s_EDJE8k1FTtQ8RnZneoLBMSs9EsQQnbKnVP2x76OeziIUAMl1Pgn1fdIlBGV84ik1-AdE5I=w1338-h523) 
