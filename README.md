@@ -1,5 +1,5 @@
 # SNPipe
-This software is a pipeline, written in python, to perform SNP calling for several related genomes at the same time respect to a reference genome. The output of the pipeline is a set of VCF file containing the SNPs for each query genome. Many downstream analysis could be made with this VCF files, depending on the sort of study you are doing.
+This software is a pipeline, written in python, to perform SNP calling for several related genomes at the same time respect to a reference genome. The output of the pipeline is a set of VCF files containing the SNPs for each query genome. Many downstream analysis could be made with this VCF files, depending on the sort of study you are doing.
 
 # Prerequisites
 
